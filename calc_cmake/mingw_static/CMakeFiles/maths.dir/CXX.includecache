@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/yurada.bur/worksheet4/calc_cmake/mingw_static/adder.cpp
+adder.h
+C:/Users/yurada.bur/worksheet4/calc_cmake/mingw_static/adder.h
+
+C:/Users/yurada.bur/worksheet4/calc_cmake/mingw_static/adder.h
+

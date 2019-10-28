@@ -1,0 +1,10 @@
+^C:\USERS\YURADA.BUR\WORKSHEET4\CALC_CMAKE\MSVC_DYNAMIC\CMAKEFILES\BC59878C6D674497E3AB80230E7D5664\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/yurada.bur/worksheet4/calc_cmake -BC:/Users/yurada.bur/worksheet4/calc_cmake/msvc_dynamic --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/yurada.bur/worksheet4/calc_cmake/msvc_dynamic/calc.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
